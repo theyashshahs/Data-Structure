@@ -139,7 +139,7 @@ public static void main(String[] args) {
                 a.add(c, sc.nextInt());
                 c++;
             }
-            System.out.println("\n  Element added successfully");
+            System.out.println("\n  Elements added successfully");
             break;
 
         case 3:
