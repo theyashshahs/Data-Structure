@@ -157,10 +157,14 @@ class AVLTree {
                 if (temp == null) {
                     temp = root;
                     root = null;
-                } else // One child case
+                }
+
+                else // One child case
                     root = temp; // Copy the contents of
                                  // the non-empty child
-            } else {
+            }
+
+            else {
 
                 // node with two children: Get the inorder
                 // successor (smallest in the right subtree)
